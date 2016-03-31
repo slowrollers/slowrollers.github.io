@@ -51,7 +51,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #fff;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -59,8 +59,9 @@ a {
 
 a:hover,
 a:focus {
+    color: #fff;
     text-decoration: none;
-    color: #1d9b6c;
+    font-size: 1.2em
 }
 
 .light {
@@ -354,7 +355,7 @@ footer p.copyright {
 footer p.copyright span {
   display: none;
 }
-footer small {
+small {
   color: #bbb;
 }
 
@@ -380,4 +381,28 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+iframe {
+  width: 416px;
+  height: 416px;
+  margin: 0 auto;
+}
+@media(min-width:768px) {
+  iframe {
+    width: 624px;
+    height: 624px;
+  }
+}
+@media(min-width:1100px) {
+  iframe {
+    width: 840px;
+    height: 840px;
+  }
+}
+@media(min-width:1300px) {
+  iframe {
+    width: 1056px;
+    height: 840px;
+  }
 }
