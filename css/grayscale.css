@@ -162,15 +162,30 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    background: url(../img/logo-lg.png) no-repeat bottom center scroll;
+    background-size: contain;
+}
+.intro .intro-body .brand-heading span ,
+.intro .intro-body .intro-text span {
+  position: relative;
+  left: 10000px;
+}
+.intro .intro-body .intro-text {
+    background: url(../img/tagline-lg.png) no-repeat bottom center scroll;
+    background-size: contain;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
 }
 
+.intro .intro-body .overlap-bottom {
+  position: relative;
+  bottom: -55px;
+}
+
 @media(min-width:768px) {
     .intro {
-        height: 100%;
         padding: 0;
     }
 
@@ -261,42 +276,14 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-#map {
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
-}
-
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
     }
 
-    .download-section {
-        padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
-    }
 }
 
 .btn {
     border-radius: 0;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
@@ -305,21 +292,24 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: none;
+    color: #fff;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #fff;
 }
 
 ul.banner-social-buttons {
     margin-top: 0;
+}
+
+#about .btn {
+  font-size: 25px;
 }
 
 @media(max-width:1199px) {
@@ -346,6 +336,18 @@ footer {
 
 footer p {
     margin: 0;
+}
+footer p.copyright {
+  height: 100px;
+    background: url(../img/copyright-lg.png) no-repeat bottom center scroll;
+    background-size: contain;
+}
+footer p.copyright span {
+  position: relative;
+  left: 10000px;
+}
+footer small {
+  color: #bbb;
 }
 
 ::-moz-selection {
