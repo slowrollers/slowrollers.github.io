@@ -178,6 +178,7 @@ a:focus {
   display: none;
 }
 .intro .intro-body .intro-text {
+    height: 1.4em;
     background: url(../img/tagline-lg.png) no-repeat bottom center scroll;
     background-size: contain;
 }
