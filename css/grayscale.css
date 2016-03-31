@@ -174,8 +174,7 @@ a:focus {
 }
 .intro .intro-body .brand-heading span ,
 .intro .intro-body .intro-text span {
-  position: relative;
-  left: 10000px;
+  display: none;
 }
 .intro .intro-body .intro-text {
     background: url(../img/tagline-lg.png) no-repeat bottom center scroll;
@@ -353,8 +352,7 @@ footer p.copyright {
     background-size: contain;
 }
 footer p.copyright span {
-  position: relative;
-  left: 10000px;
+  display: none;
 }
 footer small {
   color: #bbb;
