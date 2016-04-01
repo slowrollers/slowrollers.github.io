@@ -153,7 +153,6 @@ a:focus {
     height: auto;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.png) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
