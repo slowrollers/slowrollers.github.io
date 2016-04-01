@@ -151,7 +151,6 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
     text-align: center;
     color: #fff;
     background: url(../img/intro-bg.png) no-repeat bottom center scroll;
@@ -182,28 +181,23 @@ a:focus {
     background: url(../img/tagline-lg.png) no-repeat bottom center scroll;
     background-size: contain;
 }
-
 .intro .intro-body .intro-text {
-  margin-top: 300px;
     font-size: 18px;
+  position: relative;
+  top: -35px;
 }
 
 .intro .intro-body .overlap-bottom {
   position: relative;
-  bottom: -55px;
 }
-.intro-body div#main {
-  position: relative;
-}
-img#product {
-  position: absolute;
-  top: 470px;
-  left: 50px;
-}
-
 
 .icon-sep {
   margin-top: 1em;
+}
+img#product {
+  width: 100%;
+  position: relative;
+  top: -50px;
 }
 
 @media(min-width:768px) {
@@ -217,7 +211,20 @@ img#product {
 
     .intro .intro-body .intro-text {
         font-size: 26px;
+      margin-top: 330px;
+      position: relative;
     }
+
+    .intro-body div#main {
+      position: relative;
+    }
+    img#product {
+      width: 700px;
+      position: absolute;
+      top: 470px;
+      left: 50px;
+    }
+
 }
 
 .btn-circle {
